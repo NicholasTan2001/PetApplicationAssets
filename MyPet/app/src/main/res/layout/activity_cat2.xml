@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?> <!-- CD21068 -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Cat2">
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="404dp"
+        android:layout_height="340dp"
+        android:layout_marginTop="108dp"
+        android:background="@drawable/background"
+        android:fontFamily="@font/font1"
+        android:text="Senior\nSpecial Diet: Consider switching to a senior cat food formulated to support aging bodies and address potential health concerns.
+\nMobility Support: Provide easy access to comfortable resting spots and consider ramps or steps for easier mobility.
+\nRegular Checkups: Increase the frequency of vet checkups to monitor for age-related health issues such as arthritis, kidney disease, or dental problems.
+\nQuality Time: Spend quality time with your senior cat, providing gentle exercise and attention tailored to their needs.\n\nGeriatric\nFocus on providing a comfortable environment with easy access to food, water, litter box, and cozy resting areas.
+\nPain Management: Monitor for signs of pain or discomfort and work with your vet to manage any age-related ailments.
+\nNutritional Support: Consider supplements or specialized diets to address specific health concerns such as joint health or cognitive function.
+\nLove and Attention: Shower your geriatric cat with love and attention, ensuring they feel secure and cherished in their golden years."
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="141dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/font1"
+        android:text="Growth diary"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.572" />
+</androidx.constraintlayout.widget.ConstraintLayout>

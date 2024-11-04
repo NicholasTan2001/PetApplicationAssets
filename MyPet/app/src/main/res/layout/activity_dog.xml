@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?> <!-- CD21068 -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Dog">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/font1"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:text="Puppy\nNutrition: Ensure them is on a balanced diet suitable for growth and development.
+\nSocialization: Expose them to various environments, people, and animals to help them become well-adjusted adults.
+\nTraining: Start basic obedience training and housebreaking early.
+\nHealthcare: Regular vaccinations, deworming, and flea/tick prevention are crucial.
+\nExercise: Provide controlled exercise appropriate for their age and breed.
+\n\nJunior\nContinued Training: Build on basic obedience and introduce more advanced commands.
+\nNutrition: Transition to an adult diet, if appropriate for the breed.
+\nExercise: Increase physical activity gradually as the puppy grows.
+\nMental Stimulation: Provide puzzles, games, and toys to keep their mind engaged.
+\nHealth Check-ups: Regular vet check-ups to monitor growth and development.\n\nAdult\nNutrition: Maintain a balanced diet appropriate for their age, size, and activity level.
+\nExercise: Provide regular exercise to keep them fit and mentally stimulated.
+\nDental Care: Start regular dental care routines to prevent dental issues.
+\nPreventive Healthcare: Keep up with vaccinations, parasite prevention, and annual check-ups.
+\nWeight Management: Monitor their weight and adjust diet and exercise accordingly.
+"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font1"
+        android:text="Next"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

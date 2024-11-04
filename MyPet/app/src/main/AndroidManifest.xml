@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/dog"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/dog"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyPet"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".Booking"
+            android:exported="false" />
+        <activity
+            android:name=".Appointment"
+            android:exported="false" />
+        <activity
+            android:name=".Cat2"
+            android:exported="false" />
+        <activity
+            android:name=".Cat"
+            android:exported="false" />
+        <activity
+            android:name=".Dog2"
+            android:exported="false" />
+        <activity
+            android:name=".Dog"
+            android:exported="false" />
+        <activity
+            android:name=".Diary"
+            android:exported="false" />
+        <activity
+            android:name=".Selection"
+            android:exported="false" />
+        <activity
+            android:name=".Calculator"
+            android:exported="false" />
+        <activity
+            android:name=".Shake"
+            android:exported="false" />
+        <activity
+            android:name=".mainmenu"
+            android:exported="false" />
+        <activity
+            android:name=".voice"
+            android:exported="false" />
+        <activity
+            android:name=".dialog_add_feeding"
+            android:exported="false" />
+        <activity
+            android:name=".feeding_card"
+            android:exported="false" />
+        <activity
+            android:name=".feeding"
+            android:exported="false" />
+        <activity
+            android:name=".dialog_add_contact"
+            android:exported="false" />
+        <activity
+            android:name=".contact_card"
+            android:exported="false" />
+        <activity
+            android:name=".contact"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PetOptionsActivity"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".PetProfileActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?> <!-- CD21068 -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Dog2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="43dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:fontFamily="@font/font1"
+        android:textSize="12sp"
+        android:text="Senior\nNutrition: Switch to a senior dog diet to accommodate changing nutritional needs.
+\nHealth Monitoring: Increase vet visits to twice a year for thorough check-ups.
+\nExercise: Adjust exercise routines to be gentler on aging joints, but still provide mental stimulation.
+\nComfort: Provide comfortable bedding and accommodations to support aging joints and muscles.
+\nWatch for Signs of Aging: Keep an eye out for signs of cognitive decline, arthritis, or other age-related issues. \n\nGeriatric\nIncreased Health Concerns: They are more prone to age-related health issues such as arthritis, cognitive decline, organ dysfunction, and sensory impairments, necessitating more comprehensive health care.
+\nRegular Veterinary Check-ups: They require more frequent vet visits, typically every six months, compared to younger dogs, to monitor their health closely and detect and manage any emerging issues promptly.
+\nNutrition and Weight Management: They have different nutritional needs compared to younger dogs, requiring adjustments to their diet to support aging bodies and prevent obesity or malnutrition.
+\nPain Management and Mobility Support: They are more likely to experience pain, stiffness, and mobility issues, necessitating specific strategies for pain management and mobility support, such as medication, supplements, and environmental modifications.
+\nMental Stimulation and Quality of Life: As dogs age, maintaining mental stimulation and overall quality of life becomes increasingly important to slow cognitive decline and ensure their well-being in their later years."
+        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="36dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font1"
+        android:textSize="20sp"
+        android:backgroundTint="@color/white"
+        android:text="Growth Diary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.567" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
